@@ -1,7 +1,7 @@
 class GameStats:
-    """Tracj statustics for Alien Invasion."""
+    """Track statistics for Alien Invasion."""
 
-    def __init___(self, ai_game):
+    def __init__(self, ai_game):
         """Initialize statitistics."""
         self.settings = ai_game.settings
         self.reset_stats()
